@@ -38,6 +38,19 @@ body {
 }
 
 .person__name {
+  font-size: 36px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.person__position {
+  font-size: 18px;
+  font-style: italic;
+  margin: 0;
+  color: #545454;
+}
+
+.person__info {
 }
 
 .person__picture {
@@ -50,4 +63,19 @@ body {
 
   background: url(avatar.png);
   border-radius: 74px; */
+}
+
+.person__description {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.special-orange {
+  color: #ed6d05;
+  font-weight: normal;
+}
+
+.person__link {
+  color: #e20613;
+  font-weight: normal;
 }
