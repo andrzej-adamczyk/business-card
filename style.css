@@ -34,6 +34,7 @@ body {
 }
 
 .avatar {
+  padding: 32px;
   /* position: absolute;
   width: 148px;
   height: 148px;
