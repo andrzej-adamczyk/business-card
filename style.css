@@ -22,6 +22,7 @@ body {
   border-radius: 16px;
   width: 624px;
   margin: 16px;
+  padding: 32px;
 
   /* position: absolute;
 
@@ -51,6 +52,7 @@ body {
 }
 
 .person__info {
+  margin-bottom: 24px;
 }
 
 .person__picture {
@@ -68,6 +70,11 @@ body {
 .person__description {
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
+}
+
+.person__description--with-margin {
+  margin-bottom: 22px;
 }
 
 .special-orange {
@@ -78,4 +85,5 @@ body {
 .person__link {
   color: #e20613;
   font-weight: normal;
+  text-decoration: none;
 }
